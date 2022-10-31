@@ -1,0 +1,243 @@
+/*Style généraux*/
+*{
+    color: whitesmoke;
+    padding: 1.5px;
+    margin: 1.5px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #cfd8d7;
+    /* color: rgb(255, 255, 255); */
+}
+h1{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: 'Arvo', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    /* color: rgb(0, 0, 0); */
+}
+h3{
+    font-family: 'Arvo', serif;
+    font-size: 1.4em;
+    font-style: italic;
+    /* color: rgba(0, 0, 0, 0.76); */
+}
+h4{
+    font-size: 1.3em;
+    font-weight: bold;
+    /* color: rgba(0, 0, 0, 0.562); */
+}
+p{
+    font-family: 'Martel', serif;
+    font-size: 1.2em;
+    /* color: rgb(0, 0, 0); */
+}
+a{
+    color: rgb(44, 118, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Section*/
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(145, 145, 145);
+    background-color: #9f9aa4;
+    margin-bottom: 2%;
+}
+
+
+/*Index*/
+.liste li {
+    display: inline;
+    width: 95%;
+    padding: auto;
+}
+
+/*Contact*/
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-left {
+    width: 50%;
+    float: left;
+}
+.contact-right {
+    width: 50%;
+    float: right;
+    padding-left: 150px;
+    margin-top: -90px;
+}
+
+
+/*div expérience et formation*/
+.exp-pro-forma-inter{
+    display: flex;
+    flex-flow: column;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+    justify-content: space-around;
+    width: 95%;
+}
+
+/*Expériences*/
+.exp-logo img {
+    align-items: center;
+    justify-content: center;
+    flex-basis: 5%;
+    width: 10%
+}
+
+.exp-info {
+    align-items: center;
+    align-self: auto;
+    flex-basis: 80%;
+}
+
+.exp {
+    box-shadow: 0px 0px 10px #777;
+    margin : 10px 0px 20px 0px;
+}
+
+/*Formations*/
+.form-logo img {
+    align-items: center;
+    justify-content: center;
+    flex-basis: 5%;
+    width: 9%
+}
+.form-info {
+    align-items: center;
+    align-self: auto;
+    flex-basis: 80%;
+}
+
+.mat li {
+    display: inline;
+    width: 95%;
+    padding: auto;
+}
+
+.form {
+    box-shadow: 0px 0px 10px #777;
+    margin : 10px 0px 20px 0px;
+}
+
+/*Compétences*/
+.sous-comp{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+    box-shadow: 0px 0px 10px #777;
+}
+
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contenaire{
+    flex: 0 0 100%;
+    height: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0.25em;
+    background-color: grey;
+}
+
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.c100{
+    width: 100%;
+    background-color: #87c4b2;
+    border-radius: 5px;
+}
+
+.c90{
+    width: 90%;
+    background-color: #87c4b2;
+}
+
+.c80{
+    width: 80%;
+    background-color: #87c4b2;
+}
+
+.en-cours{
+    width: 50%;
+    background-color: #87c4b2;
+}
+
+/*Interets*/
+
+.int{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    width: 100%;
+    box-shadow: 0px 0px 10px #777;
+}
+
+.int-logo img {
+    align-items: center;
+    align-self: auto;
+    flex-basis: 5%;
+    width: 35%
+}
+.int-info {
+    align-items: center;
+    align-self: auto;
+    flex-basis: 80%;
+}
+
+/* **************************
+    Mes Projets
+************************** */
+
+.MEP_projets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;   
+}
+
+.projets {
+    flex-basis: 40%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    box-shadow: 0px 0px 10px #777;
+}
+
+.liste_projets {
+    list-style-type: none;
+}
